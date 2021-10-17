@@ -1,0 +1,18 @@
+game.StarterGui:SetCore("SendNotification", {
+Title = "*Mario OH NO voice line*";
+Text = "Your computer has jjsploit virus";
+Duration = "10";
+})
+wait(3)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Press Alt + F4 to fix the virus";
+Text = "NOW";
+Duration = "1";
+}) wait(10)
+while true do
+game.StarterGui:SetCore("SendNotification", {
+Title = "Noclip";
+Text = "Press E To Noclip";
+Duration = "10";
+})
+end
